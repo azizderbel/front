@@ -1,0 +1,16 @@
+{
+    "products":[
+        {
+             "id": 1, "title":"Robe Mini","price":99.9,"quantity":18, "like":8,"image":"assets/img/product-1.jpg"
+        },
+        {
+            "id": 2, "title":"Robe longue ","price":125,"quantity":8, "like":8,"image":"assets/img/product-2.jpg"
+        },
+        {
+            "id": 4, "title":"Robe cache-cœur","price":60,"quantity":8, "like":8,"image":"assets/img/product-3.jpg"
+        },
+        {
+            "id": 5, "title":"Chemise","price":49,"quantity":8, "like":8,"image":"assets/img/product-4.jpg"
+        }
+    ]
+}
