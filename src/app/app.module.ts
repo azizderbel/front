@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { DetailProductComponent } from './detail-product/detail-product.component';
+import {NgxPaginationModule} from 'ngx-pagination';
 
 
 @NgModule({
@@ -18,7 +19,8 @@ import { DetailProductComponent } from './detail-product/detail-product.componen
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxPaginationModule
   ],
   providers: [],
   bootstrap: [AppComponent]
